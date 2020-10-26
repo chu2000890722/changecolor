@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <title>改變顏色</title>
+    <meta name="description" content="這是我的第二個網站" />
+    <meta name="author" content="wilson Ren" />
+    <meta name="robots" content="index.follow" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="container">
+        <button type="button" onclick="myFunction1()">紅色</button>
+        <button type="button" onclick="myFunction2()">藍色</button>
+        <button type="button" onclick="myFunction3()">橘色</button>
+           
+    <script>    
+        function myFunction1() {{
+        document.getElementsByTagName("BODY")[0].style.backgroundColor = "red";
+        document.getElementById("demo").innerHTML="當前顏色是紅色";
+        }}
+        function myFunction2() {{
+        document.getElementsByTagName("BODY")[0].style.backgroundColor = "blue";
+        document.getElementById("demo").innerHTML="當前顏色是藍色";
+        }}
+        function myFunction3() {
+        document.getElementsByTagName("BODY")[0].style.backgroundColor = "orange";
+        document.getElementById("demo").innerHTML="當前顏色是橘色";
+        }
+    </script>
+    </div>
+    
+      
+    <body>
+        <div class="charest">
+            <p id="demo">當前顏色是白色</p>
+        </div>
+        
+    </body>
+    
+    
+        
+    
+        
+</body>
+</html>
